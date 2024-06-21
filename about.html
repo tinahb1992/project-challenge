@@ -27,6 +27,29 @@
     <link rel="stylesheet" href="styles/challenge.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Dinah Logo"
+        />
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Dinah">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Dinah's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Dinah">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="row">
         <div class="col-md-6">
@@ -39,7 +62,7 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -47,5 +70,59 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <a
+          href="/contact.html"
+          class="btn btn-branding mt-3"
+          title="Contact Dinah"
+        >
+          Contact me
+        </a>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a
+          href="mailto:dmmatshwaane@gmail.com"
+          class="email-link"
+          title="Email Dinah"
+          >dmmatshwaane@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/dinah"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.github.com/dinah"
+          target="_blank"
+          title="Github Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/dinah"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Dinah Buthane and it is
+        <a href="https://github.com/tinahb1992/" target="_blank">
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
